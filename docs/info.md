@@ -7,14 +7,33 @@ You can also include images in this folder and reference them in the markdown. E
 512 kb in size, and the combined size of all images must be less than 1 MB.
 -->
 
-## How it works
+## How it works|
 
-Explain how your project works
+Two logic gates take two single bit inputs and compare them, with the result sent to the led at the output.
+There is an AND gate and an OR gate. Their implementations are separate from one another
 
-## How to test
+## How to test|
+Using the Wokwi simulator verify the inputs using the truth tables
 
-Explain how to use your project
+AND GATE
+`AB = S `
+|  A     |  B     |  S    |
+|--------|--------|-------|
+| 0      | 0      | 0     |
+| 0      | 1      | 0     |
+| 1      | 0      | 0     |
+| 1      | 1      | 1     |
 
-## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+OR GATE
+`A + B = Cout`
+|  A     |  B     |  Cout |
+|--------|--------|-------|
+| 0      | 0      | 0     |
+| 0      | 1      | 1     |
+| 1      | 0      | 1     |
+| 1      | 1      | 1     |
+
+
+## External hardware|
+Six Led's
